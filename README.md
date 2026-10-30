@@ -9,6 +9,39 @@ Tecnocity Admin es una aplicación de escritorio para administrar las operacione
 
 > **Uso no comercial:** el código se ofrece bajo PolyForm Noncommercial 1.0.0. Se permite el uso, estudio, modificación y redistribución únicamente para fines permitidos por esa licencia. El uso comercial requiere autorización o una licencia comercial independiente del titular de los derechos. Esta licencia no es una licencia Open Source aprobada por OSI; consulta [Licencias de terceros](docs/THIRD_PARTY_LICENSES.md) antes de distribuir ejecutables.
 
+## Capturas de pantalla
+
+A continuación, puedes conocer la interfaz de Tecnocity Admin y sus principales módulos.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Dashboard financiero</strong><br><br>
+      <img src="docs/screenshots/dashboard.png" alt="Dashboard financiero de Tecnocity Admin" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <strong>Productos</strong><br><br>
+      <img src="docs/screenshots/productos.png" alt="Gestión de productos de Tecnocity Admin" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Control de reportes</strong><br><br>
+      <img src="docs/screenshots/control_de_reportes.png" alt="Control de reportes de Tecnocity Admin" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <strong>Compras</strong><br><br>
+      <img src="docs/screenshots/compras.png" alt="Módulo de compras de Tecnocity Admin" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <strong>Ventas</strong><br><br>
+      <img src="docs/screenshots/ventas.png" alt="Módulo de ventas de Tecnocity Admin" width="75%">
+    </td>
+  </tr>
+</table>
+
 ## Funcionalidades
 
 - **Dashboard financiero:** indicadores, comparaciones por período, tendencias y gráficos de ventas, ganancias, gastos, métodos de pago y productos.
@@ -81,7 +114,9 @@ TecnocityAdmin/
 │   └── widgets/       # Interfaz y gráficos
 ├── assets/            # Hoja de estilos de la aplicación
 ├── data/              # Datos locales (no se publican)
-├── docs/              # Guías técnicas
+├── docs/
+│   ├── screenshots/   # Capturas de pantalla
+│   └──                # Documentación técnica
 ├── tests/             # Pruebas automatizadas
 ├── tools/             # Herramientas de desarrollo
 ├── run.py             # Punto de entrada
