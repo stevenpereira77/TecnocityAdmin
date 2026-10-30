@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Entornos virtuales y variables locales
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# IDE / sistema operativo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Compilación y distribución
+build/
+dist/
+*.egg-info/
+*.manifest
+
+# Datos de usuario, SQLite y respaldos
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.bak
+*.backup
+*.old
+data/config/settings.json
+data/config/google/
+client_secret.json
+token.json
+credentials.json
+data/backups/*
+!data/backups/.gitkeep
+data/reportes/*
+!data/reportes/.gitkeep
+data/exports/
+
+# Registros y archivos temporales
+logs/*
+!logs/.gitkeep
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Imágenes añadidas por usuarios durante la ejecución
+assets/images/

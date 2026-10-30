@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=8,<10
+
+# Runtime report/export dependencies are inherited from requirements.txt
